@@ -1,0 +1,64 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 2px;
+    background: darkgray;
+}
+
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    width: 49%;
+    padding: 8px;
+    display: block;
+    float: left;
+    overflow: auto;
+    margin: 0;
+    font-size: 30px;
+
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+.navbar {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    width: 48.7%;
+    padding: 8px;
+    display: block;
+    float: right;
+    overflow: auto;
+    margin: 0;
+    font-size: 30px;
+}
+.container {
+    width: 100%;
+    height: 600px;
+}
+.contact {
+    float: left;
+    width: 35%;
+    margin: 14px;
+    padding: 100px;
+}
+aside {
+    width: 45%;
+    float: right;
+    margin-top: 150px;  
+    margin-left: 10px;
+
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 4px solid green;
+    background: darkgray;
+    margin-top: 175px;
+    color: white;
+    width: 100%;
+
+
+}

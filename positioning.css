@@ -1,0 +1,32 @@
+body{
+    width: 600px;
+    margin: 0 auto;
+
+}
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background:  #eee;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+.container {
+    width: 600px;
+    margin: 0 auto;
+
+}
+.relative {
+    position: relative;
+    background: #eee;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+}
+.absolute {
+    position: absolute;
+    background: #999;
+    right: 0;
+    bottom: 0;
+}
