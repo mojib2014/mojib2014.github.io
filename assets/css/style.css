@@ -95,6 +95,21 @@ a:active {
     color: rgb(5, 99, 5);
 }
 .pictures {
-    width: 200px;
-    height: 200px;
+    /* width: 200px;
+    height: 200px; */
+}
+.picture-container {
+    position: relative;
+}
+.picture1 {
+    float: left;
+    margin: 20px;
+}
+.picture2 {
+    float: left;
+    margin: 20px 50px 50px 50px;
+}
+.picture3 {
+    float: left;
+    margin: 20px 50px 50px 50px;
 }
