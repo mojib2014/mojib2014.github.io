@@ -1,0 +1,100 @@
+body {
+    background: url("../images/light_grey.png");
+    /* margin: 0 auto; */
+    width: 100%;
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+
+}
+.navigation-container {
+    width: 100%;
+    padding: 30px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    background: white;
+}
+.header {
+    position: fixed;
+    left: 230px;
+    top: 3px;
+    background: rgb(5, 99, 5);
+    color: white;
+    padding: 16px;
+}
+
+.navbar {
+    position: fixed;
+    right: 221px;
+    top: 3px;
+    text-decoration-style: none;
+    padding: 16px;
+}
+a:hover {
+    color: green;
+}
+
+a:focus {
+    color: purple;
+}
+a:active {
+    color: red;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    height: 400px;
+    background: white;
+
+}
+.about-me {
+    font-size: 30px;
+    color: rgb(5, 99, 5);
+    padding: 8px;
+}
+.paragraph {
+    padding: 8px;
+}
+
+.image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 8px;
+}
+
+
+.footer { 
+    text-align: center;
+    width: 100%;
+    background: lightgray;
+    bottom: 4px;
+    padding: 10px;
+    position: fixed;
+    color: black;
+}
+
+
+/* styling contact.html from here below */
+
+.message {
+    font-size: 30px;
+    color: rgb(5, 99, 5);
+    padding: 8px;
+    margin-left: 10px;
+    /* float: left; */
+}
+.input {
+    /* width: 960px; */
+    margin: 2px 2px 2px 2px;
+    text-align: center;
+}
+
+/* portfolio.html styles start from here */
+.portfolio {
+    font-size: 30px;
+    margin-left: 8px;
+    color: rgb(5, 99, 5);
+}
+.pictures {
+    width: 200px;
+    height: 200px;
+}
