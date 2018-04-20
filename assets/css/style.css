@@ -10,7 +10,7 @@ body {
     padding: 30px;
     font-size: 24px;
     margin-bottom: 20px;
-    background: white;
+    background: lightgray;
 }
 .header {
     position: fixed;
@@ -25,11 +25,12 @@ body {
     position: fixed;
     right: 221px;
     top: 3px;
-    text-decoration-style: none;
+    
     padding: 16px;
+    line-height: 6px;
 }
 a:hover {
-    color: green;
+    color: rgb(23, 6, 172);
 }
 
 a:focus {
@@ -38,7 +39,7 @@ a:focus {
 a:active {
     color: red;
 }
-.container {
+.about-container {
     width: 960px;
     margin: 0 auto;
     height: 400px;
@@ -74,42 +75,104 @@ a:active {
 
 
 /* styling contact.html from here below */
+.contact-container {
+    width: 500px;
+    position: relative;
+    /* height: 200px; */
+    float: left;
+    /* margin: 0 auto; */
+    background: white;  
+    left: 230px;
+}
 
-.message {
+.contact {
     font-size: 30px;
     color: rgb(5, 99, 5);
     padding: 8px;
     margin-left: 10px;
+    margin-top: 10px;
     /* float: left; */
+    
 }
+
 .input {
-    /* width: 960px; */
-    margin: 2px 2px 2px 2px;
+    /* width: 44px; */
+    margin: 0 auto;
     text-align: center;
+    height: 200px;
 }
+.aside {
+    position: relative;
+    left: 600px;
+    bottom: 320px;
+    float: right;
+    width: 400px;
+    height: 250px;
+    background: white;
+    padding: 10px;
+}
+h3 {
+    font-size: 24px;
+    padding: 10px;
+}
+/* End of contact.html */
+
 
 /* portfolio.html styles start from here */
 .portfolio {
     font-size: 30px;
     margin-left: 8px;
+    margin-top: 3px;
     color: rgb(5, 99, 5);
 }
-.pictures {
-    /* width: 200px;
-    height: 200px; */
-}
-.picture-container {
+/* .pictures-conainer {
+    width: 200px;
+    height: 200px;
+} */
+.picture-wraper {
     position: relative;
+    margin: 0 auto;
+    width: 960px;
+    height: 100%;
+    background: white;
+    
 }
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .picture1 {
-    float: left;
-    margin: 20px;
+    margin: 8px;
+    /* float: left; */
+    /* width: 300px; */
+    
 }
 .picture2 {
-    float: left;
-    margin: 20px 50px 50px 50px;
+    margin: 8px;
+    /* float: left; */
+    /* width: 300px; */
 }
 .picture3 {
-    float: left;
-    margin: 20px 50px 50px 50px;
+    margin: 8px;
+    /* position: relative; */
+    /* left: 200px; */
+    /* float: left; */
+    /* width: 300px; */
+    
 }
+.picture4 {
+    margin: 8px;
+    /* float: left; */
+    /* width: 250px; */
+}
+/* aside {
+    position: absolute;
+    width: 400px;
+    float: right;
+} */
