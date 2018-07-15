@@ -1,3 +1,3 @@
-<h1>"Modern" portfolio page</h1>
+<h1>"Mojib" portfolio page</h1>
 
-<p><a href="https://chippd.github.io/modern/">View demo here</a></p>
+<p><a href="https://mojib2014.github.io/">View demo here</a></p>
