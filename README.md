@@ -11,9 +11,9 @@ Before he leanred coding, Mojib was a production associate at Tesla Motors, drov
 #structure
 The website contains 3 main pages: 
     1. Home page 
-        An introduction of Chunjin and his profile image.
+        An introduction of Mojib and his profile image.
     2. Portfolio Page
-        This page contains many of the projects Chunjin developed by himself or he contributed to. Please feel free to click on the image and explore the usefull apps and interesting games he had developed.
+        This page contains many of the projects Mojib developed by himself or he contributed to. Please feel free to click on the image and explore the usefull apps and interesting games he had developed.
     3. Contact Page
         This page allows you to get in contact with Mojib and leave messages.
 
